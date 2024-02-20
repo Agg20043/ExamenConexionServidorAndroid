@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAgregarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#97FA0C"
+        android:text="Agregar Usuario" />
+
+    <Button
+        android:id="@+id/btnModificarContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="Modificar Contraseña" />
+
+    <Button
+        android:id="@+id/btnEliminarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFB00"
+        android:text="Eliminar Usuario" />
+
+    <Button
+        android:id="@+id/btnEliminarTodosUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF73"
+        android:text="Eliminar Todos los Usuarios" />
+</LinearLayout>
